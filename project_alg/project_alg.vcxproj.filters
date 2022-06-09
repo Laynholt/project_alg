@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Window">
+      <UniqueIdentifier>{04c8a955-9394-4722-a986-4da0a126a456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Window">
+      <UniqueIdentifier>{6fe5dcdf-feb8-47e4-b372-ae94c2cac830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Window\Widget">
+      <UniqueIdentifier>{130ab8a1-eb57-4789-ab18-241b8ff03577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Window\Widget">
+      <UniqueIdentifier>{ef0742dc-d491-42c3-a01f-2f2d2b601fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Graphic">
+      <UniqueIdentifier>{13b34090-64cf-42e7-8ed9-452217843b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Graphic\Math">
+      <UniqueIdentifier>{9d77ccc4-6e2c-46b8-8ed7-0446d1389c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Graphic">
+      <UniqueIdentifier>{662103a9-1d28-4905-8d2b-a6bb8d468c05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>Исходные файлы\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Combobox.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Groupbox.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Исходные файлы\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Исходные файлы\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingArea.cpp">
+      <Filter>Исходные файлы\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetRect.cpp">
+      <Filter>Исходные файлы\Window\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="Presets.cpp">
+      <Filter>Исходные файлы\Graphic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApp.h">
+      <Filter>Файлы заголовков\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Combobox.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Groupbox.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>Файлы заголовков\Graphic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Файлы заголовков\Graphic\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Файлы заголовков\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Presets.h">
+      <Filter>Файлы заголовков\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Файлы заголовков\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingArea.h">
+      <Filter>Файлы заголовков\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="WidgetRect.h">
+      <Filter>Файлы заголовков\Window\Widget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
